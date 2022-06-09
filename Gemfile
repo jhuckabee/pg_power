@@ -21,7 +21,7 @@ group :development do
   gem 'yard'
   gem 'metrical' , :require => false if version18
   gem 'metric_fu', :require => false unless version18
-  gem 'jeweler', :require => false
+  gem 'jeweler', '1.8.8', :require => false
 
 
   unless ENV["RM_INFO"]
